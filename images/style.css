@@ -1,0 +1,286 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+body{
+  background-color: #f8f8fa;
+}
+header {
+  background-color: #4617fe;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem;
+}
+
+nav div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item, .nav-item-active {
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+.nav-item-active {
+  background: #fff;
+  color: #4617fe;
+  border-radius: 5px;
+}
+
+.hero-section {
+  margin: 0 0 0 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  margin-top: 6rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.header-text h2 {
+  font-weight: 300;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.header-image{
+  position: relative;
+  margin-top: 160px;
+}
+
+.companies {
+  display: flex;
+  margin-left: 12rem;
+  margin-top: 1.3rem;
+  gap: 3rem;
+}
+.company-items{
+  font-family: "Righteous";
+}
+.companies a {
+  font-family: "Righteous";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.api {
+  margin-left: 12rem;
+  margin-top: 7rem;
+}
+
+.api-heading {
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  padding-top: 0.5rem;
+  gap: 2rem;
+}
+
+.card, .card-active {
+  padding: 2rem 1rem;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+
+.card-active {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+
+.card-head-active {
+  color: #4617fe;
+}
+
+.card-head, .card-head-active {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.blog-heading {
+  margin: 6rem 12rem 2.5rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 12rem;
+}
+
+.blog-card {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+  border-top-left-radius: 100px;
+}
+
+.blog-image {
+  display: flex;
+  align-items: center;
+}
+
+.blog-content {
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.blog-content h6 {
+  color: #4617fe;
+  font-size: 1rem;
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -26px;
+}
+
+.blog-card-bottom-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.blog-author {
+  position: absolute;
+  bottom: 6px;
+  right: 4rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #4617fe;
+}
+
+.faq-section {
+  padding: 4rem 0 4rem 8rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9edff;
+  height: 324px;
+}
+
+.faq-content h2 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.faq-content h4 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.faq-content :nth-child(3) {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.faq-content button {
+  padding: 1rem 2rem;
+  background-color: #4617fe;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.faq-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-image img {
+  height: 450px;
+}
+
+.download-section {
+  margin: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-email form {
+  background: #e9edff;
+  border-radius: 10rem;
+}
+
+.download-email input {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 9rem;
+  font-size: 1rem;
+  margin: 8px;
+  background: #e9edff;
+  color: #000;
+  border: none;
+  border-radius: 10rem;
+}
+
+.download-email button {
+  background: #4617fe;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  margin: 8px;
+  text-transform: uppercase;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  background: #4617fe;
+  padding: 5rem 8rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.list, .logos-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer-logos {
+  margin-left: 1rem;
+}
+
+.logos-list {
+  margin-right: 3rem;
+}
